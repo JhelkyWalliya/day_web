@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Form</title>
+
+    <style>
+      input {
+        margin: 10px;
+      }
+      #password,
+      #username {
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 10px;
+        color: rgb(19, 16, 16);
+        background-color: white;
+      }
+
+      #username:focus,
+      #password:focus {
+        color: white;
+        background-color: rgb(18, 21, 218);
+      }
+      #username {
+        border-style: solid;
+        border-color: black;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      #login {
+        border-style: solid;
+        border-color: rgb(15, 15, 204);
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for="Username">
+        Username : <br />
+        <input type="text" required id="username" />
+      </label>
+      <label for="password"
+        ><br />
+        password : <br />
+        <input type="password" required id="password" />
+      </label>
+      <br /><br />
+      <input type="submit" id="login" />
+    </form>
+  </body>
+</html>

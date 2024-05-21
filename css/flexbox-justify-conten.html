@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify content</title>
+    <style>
+      .container {
+        display: flex;
+        block-size: 500px;
+        background: cornflowerblue;
+        /* justify-conten:center kita bisa gunakan beberepa buat merapikan anatara baris kiri kanan
+        flex-start ke kiri
+        flex-end ke kanan
+        flex-ivenli 
+        space-between jarak tengga lebih
+        space-around dua kali lipat ke kiri
+         */
+        justify-content: center;
+      }
+      .content {
+        background-color: yellow;
+        border: 2px solid blue;
+        padding: 10px;
+        margin: 10px;
+        inline-size: 200px;
+        block-size: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>content 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni,
+          accusamus! Nisi quas explicabo ratione voluptatum sunt illo deserunt
+          nulla sed quisquam architecto? Enim, quis harum quo reprehenderit
+          distinctio blanditiis molestiae!
+        </p>
+      </div>
+      <div class="container">
+        <div class="content">
+          <h1>content 2</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit
+            voluptates sit doloremque, cum optio voluptas rerum dicta, qui,
+            perspiciatis nemo neque. Cumque possimus quasi nulla doloribus
+            asperiores, nihil dicta temporibus.
+          </p>
+        </div>
+        <div class="container">
+          <div class="content 3">
+            <h1>content 3</h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id,
+            laboriosam sit! Amet quo ipsam possimus, reiciendis ex dolor, est
+            iure eius enim quos quis porro culpa aliquid in at cum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

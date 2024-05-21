@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teble css</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border-style: solid;
+        border-width: 2px;
+        margin: 0px;
+        padding: 0px;
+        border-collapse: collapse;
+      }
+      table {
+        inline-size: 200px;
+        block-size: 100px;
+      }
+      th {
+        text-align: center;
+      }
+
+      tr {
+        text-align: center;
+      }
+      tr:hover {
+        background-color: rgb(15, 163, 189);
+      }
+
+      .ganjil {
+        background-color: rgb(196, 66, 44);
+      }
+
+      .genap {
+        background-color: rgb(105, 66, 196);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr class="ganjil">
+          <th>nama</th>
+          <th>Nilai</th>
+          <th>peringkat</th>
+          <th>npm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="genap">
+          <td>Hobbi</td>
+          <td>makan</td>
+          <td>renang</td>
+          <td>lari</td>
+        </tr>
+        <tr class="ganjil">
+          <th>berenang</th>
+          <th>berdandan</th>
+          <th>makan</th>
+          <th>lompat</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
